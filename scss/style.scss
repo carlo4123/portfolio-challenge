@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Roboto&display=swap');
+
+// font-family: 'Montserrat', sans-serif;
+// font-family: 'Roboto', sans-serif;
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul,li{
+    list-style: none;
+}
+
+html{
+    font-size: 62.5%;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-size: 1.6rem;
+}
+.main{
+    background-color:#F2F2F2;
+    display: grid;
+    justify-items: center;
+    padding: 7rem 1.5rem 1rem;
+}
+.container{
+    max-width: 104.6rem;
+}
+
+.btn{
+    display: inline-block;
+    padding: 1.2rem 3rem;
+    border-radius: 12px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 1.1rem;
+
+    &:not(:last-child){
+        margin-right: 1.1rem;
+    }
+}
+
+.btn-primary{
+    background: #5C94E1;
+    color: #FFFFFF;
+    &:hover{
+        background:#FFFFFF; 
+        color: #5C94E1;
+        border: 1px solid #5C94E1;
+    }
+}
+
+.btn-secondary{
+    background:#FFFFFF; 
+    color: #5C94E1;
+    border: 1px solid #5C94E1;
+
+    &:hover{
+        background: #5C94E1;
+        color: #FFFFFF;
+    }
+}
+
+@import './profile';
+@import './skills';
+@import './hobbies';
+@import './blog';
+@import './project';
+@import './experience';
+@import './content';
+hr{
+    width: 100%;
+    max-width: 40rem;
+    background-color: #BDBDBD;
+   
+    margin-top: 11.9rem;
+}
+.copyright{
+    margin: 2.3rem 0;
+    width: 100%;
+    text-align: center;
+ 
+    
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #A9A9A9;
+ 
+}
+
