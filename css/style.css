@@ -27,7 +27,13 @@ body {
   background-color: #F2F2F2;
   display: grid;
   justify-items: center;
-  padding: 7rem 1.5rem 1rem;
+  padding: 7rem 0 1rem;
+}
+
+@media only screen and (max-width: 43.75em) {
+  .main {
+    padding: 2rem;
+  }
 }
 
 .container {
